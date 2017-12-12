@@ -1,0 +1,16 @@
+firewalld_enabled_services:
+  - https
+  - http
+  - ssh
+  - ftp
+
+firewalld_disabled_services:
+  - memcached
+  - redis
+  - mysql
+
+firewalld_enabled_ports:
+  - "60000-60010/tcp"
+
+
+firewalld_disabled_ports: []
