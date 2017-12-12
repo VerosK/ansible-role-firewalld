@@ -2,6 +2,7 @@ VerosK.firewalld
 ================
 
 Setup firewalld and put services there.
+
 Role Variables
 --------------
 
